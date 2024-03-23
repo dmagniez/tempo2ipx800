@@ -1,5 +1,4 @@
 import requests
-import json
 
 IPX800 = 'http://192.168.1.200'
 apikey = ""
