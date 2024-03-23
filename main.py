@@ -43,12 +43,15 @@ def main():
     code_of_the_day = get_code_of_the_day()
     if code_of_the_day is not None:
         if code_of_the_day == 2:
+            print("demain est un jour rouge")
             set_virtual_input(1, virtual_input_index_blanc)
             set_virtual_input(0, virtual_input_index_rouge)
         elif code_of_the_day == 3:
+            print("demain est un jour blanc")
             set_virtual_input(0, virtual_input_index_blanc)
             set_virtual_input(1, virtual_input_index_rouge)
         else:
+            print("demain est un jour bleu")
             set_virtual_input(0, virtual_input_index_blanc)
             set_virtual_input(0, virtual_input_index_rouge)
 
