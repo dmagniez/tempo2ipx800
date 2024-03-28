@@ -23,7 +23,7 @@ def set_virtual_input(state:bool , index):
     if state:
         status = "SetVI"
     else:
-        status = "Clear"
+        status = "ClearVI"
 
     ipx800_url = IPX800+"/api/xdevices.json?key="+apikey+"&"+status+"="+str(index)
 
